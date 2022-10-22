@@ -1,0 +1,19 @@
+.price-card {
+  &__price {
+    &_second-card {
+      background-color: $color-blue;
+    }
+  }
+
+  &__checkmark {
+    &_second-card {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+    }
+  }
+
+  &__button {
+    &_second-card {
+      background-color: $color-blue;
+    }
+  }
+}

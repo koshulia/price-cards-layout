@@ -1,0 +1,104 @@
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: $color-gray;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  color: $color-white;
+  margin-right: 18px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-bottom: 33px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    margin: 0;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+  }
+
+  &__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    height: 105px;
+    width: 100%;
+  }
+  &__description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin: 40px 26px;
+  }
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  &__list-item {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    height: 50px;
+    width: 100%;
+
+    &:nth-child(odd) {
+      background-color: $color-list-dark;
+    }
+
+    &:nth-child(even) {
+      background-color: $color-list-light;
+    }
+  }
+
+  &__checkmark {
+    width: 15px;
+    height: 13px;
+    margin: 18px 22px 19px 22px;
+    background-repeat: no-repeat;
+  }
+
+  &__button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+    margin-bottom: 40px;
+  }
+
+  &__button {
+    height: 40px;
+    width: 154px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-white;
+  }
+}
