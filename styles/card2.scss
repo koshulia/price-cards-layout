@@ -1,4 +1,11 @@
 .price-card {
+  position: relative;
+
+  &__popular {
+    position: absolute;
+    left: 100;
+  }
+
   &__price {
     &_second-card {
       background-color: $color-blue;
