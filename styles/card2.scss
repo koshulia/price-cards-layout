@@ -1,9 +1,23 @@
 .price-card {
   position: relative;
+  overflow: hidden;
 
   &__popular {
     position: absolute;
-    left: 100;
+    top: 30px;
+    left: 250px;
+    width: 147px;
+    height: 25px;
+    background-color: $color-red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
   }
 
   &__price {

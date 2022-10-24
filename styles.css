@@ -105,10 +105,24 @@
 
 .price-card {
   position: relative;
+  overflow: hidden;
 }
 .price-card__popular {
   position: absolute;
-  left: 100;
+  top: 30px;
+  left: 250px;
+  width: 147px;
+  height: 25px;
+  background-color: #dc3f45;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
 }
 .price-card__price_second-card {
   background-color: #3a6ba5;
