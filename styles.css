@@ -156,10 +156,14 @@ html {
 body {
   display: flex;
   background-color: #141b1c;
+  min-height: 100vh;
+}
+
+.main {
+  margin: auto;
 }
 
 .price-cards {
-  padding: 115px 132px;
   display: flex;
 }
 
