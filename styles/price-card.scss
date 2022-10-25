@@ -1,10 +1,15 @@
 .price-card {
   width: 380px;
   height: 770px;
-  background-color: $color-gray;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  color: $color-white;
   margin-right: 18px;
+  background-color: $color-gray;
+  color: $color-white;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+
+  &__popular-card {
+    position: relative;
+    overflow: hidden;
+  }
 
   &__popular {
     position: absolute;
@@ -13,14 +18,12 @@
     width: 147px;
     height: 25px;
     background-color: $color-red;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: $color-white;
     transform: rotate(45deg);
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 25px;
+    text-align: center;
     text-transform: uppercase;
   }
 
@@ -38,51 +41,66 @@
   }
 
   &__title {
+    margin: 0;
     font-weight: 700;
     font-size: 35px;
     line-height: 43px;
     text-align: center;
-    margin: 0;
   }
 
   &__subtitle {
+    margin: 0;
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    margin: 0;
   }
 
   &__price {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 105px;
+    width: 100%;
     font-weight: 700;
     font-size: 55px;
     line-height: 67px;
-    height: 105px;
-    width: 100%;
+
+    &_green {
+      background-color: $color-green;
+    }
+
+    &_blue {
+      background-color: $color-blue;
+    }
+
+    &_orange {
+      background-color: $color-orange;
+    }
   }
+
   &__description {
+    margin: 40px 26px;
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-    margin: 40px 26px;
   }
+
   &__options-list {
-    list-style-type: none;
     margin: 0;
     padding: 0;
+    list-style-type: none;
   }
+
   &__list-item {
     display: flex;
     align-items: center;
+    height: 50px;
+    width: 100%;
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    height: 50px;
-    width: 100%;
 
     &:nth-child(odd) {
       background-color: $color-list-dark;
@@ -98,6 +116,18 @@
     height: 13px;
     margin: 18px 22px 19px 22px;
     background-repeat: no-repeat;
+
+    &_green {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+    }
+
+    &_blue {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+    }
+
+    &_orange {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+    }
   }
 
   &__button-container {
@@ -115,8 +145,20 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
+    color: $color-white;
     text-align: center;
     text-transform: uppercase;
-    color: $color-white;
+
+    &_green {
+      background-color: $color-green;
+    }
+
+    &_blue {
+      background-color: $color-blue;
+    }
+
+    &_orange {
+      background-color: $color-orange;
+    }
   }
 }

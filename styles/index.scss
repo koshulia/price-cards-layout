@@ -1,8 +1,5 @@
 @import 'variables.scss';
-@import 'common.scss';
-@import 'card1.scss';
-@import 'card2.scss';
-@import 'card3.scss';
+@import 'price-card.scss';
 
 * {
   box-sizing: border-box;
@@ -15,8 +12,8 @@ html {
 
 body {
   display: flex;
-  background-color: $color-dark-gray;
   min-height: 100vh;
+  background-color: $color-dark-gray;
 }
 
 .main {
