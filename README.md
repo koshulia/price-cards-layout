@@ -1,6 +1,6 @@
 # Price Cards Layout Project
 ## [Site link](https://koshulia.github.io/price-cards-layout/)
-Layout supports mobile (up-to-1399) and desktop (above 1400) versions
+Layout supports desktop (above 585) version
 ## The tech stack is:
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
